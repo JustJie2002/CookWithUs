@@ -21,10 +21,10 @@ CookWithUs offers the following key features:
 CookWithUs is built using the following technologies:
 
 - **Frontend**: Django
-- **Backend**: Flask
-- **Database**: MySQL
-- **Real-Time Communication**: Socket.io
-<!-- - **Authentication and Authorization**: JSON Web Tokens (JWT) -->
+- **Backend**: TBD
+- **Database**: TBD
+- **Real-Time Communication**: TBD
+- **Authentication and Authorization**: TBD
 - **Deployment**: AWS
 
 ## Getting Started
@@ -34,58 +34,27 @@ To run CookWithUs locally, follow these steps:
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/CookWithUs.git
+git clone https://github.com/JustJie2002/CookWithUs.git
 ```
 
 2. Navigate to the project directory:
 
 ```
-cd CookWithUs
+cd src
 ```
 
-3. Install dependencies:
+1. Run the server:
 
 ```
-npm install
+python3 manage.py runserver
 ```
 
-4. Set up environment variables:
-
-   - Create a `.env` file in the root directory.
-   - Define the following environment variables in the `.env` file:
-     - `MONGODB_URI`: URI for your MongoDB database.
-     - `JWT_SECRET`: Secret key for generating JWT tokens.
-     - `PORT`: Port number for running the server (optional; default is 5000).
-
-5. Run the server:
-
-```
-npm start
-```
-
-6. Navigate to the client directory:
-
-```
-cd client
-```
-
-7. Install client dependencies:
-
-```
-npm install
-```
-
-8. Run the client:
-
-```
-npm start
-```
-
-9. Open your browser and visit `http://localhost:3000` to access CookWithUs.
+1. Open your browser and visit `http://127.0.0.1:8000/` to access CookWithUs.
 
 ## Contributing
 
-Contributions to CookWithUs are welcome! If you have ideas for new features or improvements, feel free to open an issue or submit a pull request. Please ensure that your code follows the project's coding standards and conventions.
+3rd Year CS Major @ RIT: Jie Chen \
+3rd Year SE Major @ RIT: Ivan Lin
 
 ## License
 
