@@ -40,16 +40,16 @@ git clone https://github.com/JustJie2002/CookWithUs.git
 2. Navigate to the project directory:
 
 ```
-cd src
+cd CookWithUs/src
 ```
 
 1. Run the server:
 
 ```
-python3 manage.py runserver
+python3 manage.py runserver <Optional Custom Port>
 ```
 
-1. Open your browser and visit `http://127.0.0.1:8000/` to access CookWithUs.
+1. Open your browser and visit `http://127.0.0.1:8000/` or `Your Custom Port` to access CookWithUs.
 
 ## Contributing
 
